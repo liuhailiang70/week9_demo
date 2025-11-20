@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Travel Explorer — Explore Tradition. Embrace Adventure.</title>
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--External CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+<!-- NAVBAR -->
+<header class="navbar navbar-expand-lg sticky-top bg-white border-bottom navbar-light">
+    <div class="container">
+      
+      <a class="navbar-brand fw-bold text-dark" href="index.html">
+        <img src="./images/Logo.png" alt="Logo"
+                  width="42" height="36"
+                  class="d-inline-block align-text-middle me-3">
+        Travel Explorer — <span class="navbar-tagline">Explore Tradition. Embrace Adventure.</span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <nav id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html" aria-current="page">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./pages/destination.html">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="./pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<!-- Hero Section（responsive container） -->
+<header class="py-5 bg-brand-light">
+    <div class="container">
+      <div class="row align-items-center gy-4">
+        
+        <div class="col-12 col-md-6">
+          <h1 class="display-5 mb-3">Welcome to Travel Explorer</h1>
+          <p class="lead mb-3">
+            We are a boutique travel agency specializing in curated, unique holiday packages to the historic heart of Northern China.</p> 
+          <p class="mb-4">
+            Discover the ancient charm and modern rhythm of our five signature destinations: <b>Beijing, Shijiazhuang, Datong, Yangquan, and Tangshan.</b> 
+            From the majestic Great Wall to the serene Cangyan Mountain, we craft journeys that go beyond the typical tourist trail, offering a unique story of culture, history, and nature.</p>
+            
+            <a href="./pages/destination.html" class="btn btn-primary btn-lg">Explore Our Packages</a>
+          </div>
+        
+        <div class="col-12 col-md-6">
+          <div id="heroCarousel" class="carousel slide rounded-4 shadow-sm" data-bs-ride="carousel" data-bs-interval="4000">
+            
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner rounded-4">
+              <div class="carousel-item active">
+                <img src="./images/homepic1.jpg" class="d-block w-100" alt="Beijing Scenery">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/homepic2.jpg" class="d-block w-100" alt="Datong Grottoes">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/homepic3.jpeg" class="d-block w-100" alt="Shijiazhuang Mountain">
+              </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!-- BENEFITS -->
+<section class="py-5 bg-light">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-12 col-md-4">
+          <div class="card benefit-card p-4 h-100">
+            <div class="benefit-icon mb-3"><i class="bi bi-map"></i></div>
+            <h3 class="h5 fw-bold">Handpicked Routes</h3>
+            <p class="mb-0">Curated itineraries that balance culture, comfort and surprise.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card benefit-card p-4 h-100">
+            <div class="benefit-icon mb-3"><i class="bi bi-people"></i></div>
+            <h3 class="h5 fw-bold">Small Groups</h3>
+            <p class="mb-0">12 travelers max for flexibility, fun and deeper connections.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card benefit-card p-4 h-100">
+            <div class="benefit-icon mb-3"><i class="bi bi-headset"></i></div>
+            <h3 class="h5 fw-bold">24/7 Support</h3>
+            <p class="mb-0">We are one tap away—before and during your trip.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-3 bg-white text-dark-50 border-top">
+    <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Travel Explorer. All Rights Reserved.</p>
+        </div>
+  </footer>
+
+  <!--External JS-->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  
+  <script src="js/script.js"></script>
+
+</body>
+</html> 

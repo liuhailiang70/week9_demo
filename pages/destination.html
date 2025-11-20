@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Destinations - Travel Explorer</title>
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!--External CSS-->
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+<!-- NAVBAR -->
+<header class="navbar navbar-expand-lg sticky-top bg-white border-bottom navbar-light">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-dark" href="index.html">
+        <img src="../images/Logo.png" alt="Logo"
+                  width="42" height="36"
+                  class="d-inline-block align-text-middle me-3">
+        Travel Explorer — <span class="navbar-tagline">Explore Tradition. Embrace Adventure.</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav id="nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="destination.html">Destinations</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<header class="destinations-header py-4 bg-light">
+        <div class="container text-center">
+            <h1 class="display-5">Explore Our Packages</h1>
+            <p class="lead">Unique holiday packages across Northern China.</p>
+        </div>
+    </header>
+
+<div class="container text-center my-4">
+        <div id="filter-buttons" class="btn-group flex-wrap" role="group">
+            <button type="button" class="btn btn-primary filter-btn" data-filter="all">All</button>
+            <button type="button" class="btn btn-outline-secondary filter-btn" data-filter="beijing">Beijing</button>
+            <button type="button" class="btn btn-outline-secondary filter-btn" data-filter="datong">Datong</button>
+            <button type="button" class="btn btn-outline-secondary filter-btn" data-filter="yangquan">Yangquan</button>
+            <button type="button" class="btn btn-outline-secondary filter-btn" data-filter="tangshan">Tangshan</button>
+            <button type="button" class="btn btn-outline-secondary filter-btn" data-filter="shijiazhuang">Shijiazhuang</button>
+        </div>
+    </div>
+
+<main class="container mb-5">
+        <div class="row g-4" id="package-grid">
+            <!-- BEIJING (6) -->
+            <div class="col-lg-4 col-md-6 package-card" data-category="beijing">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Beijing- Forbidden City.jpg" class="card-img-top" alt="Forbidden City">
+                    <div class="card-body">
+                        <h5 class="card-title">Forbidden City In‑Depth Day Tour</h5>
+                        <p class="card-text">A full-day guided tour exploring the mysteries of the Forbidden City.</p>
+                        <p class="card-price fw-bold">From €110</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="beijing">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Beijing- Great Wall.jpg" class="card-img-top" alt="Great Wall">
+                    <div class="card-body">
+                        <h5 class="card-title">Great Wall Hike</h5>
+                        <p class="card-text">Hike and cable-car access at the most scenic section of the Great Wall at Badaling or Mutianyu.</p>
+                        <p class="card-price fw-bold">From €150</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="beijing">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Beijing- Temple of Heaven.jpg" class="card-img-top" alt="Temple of Heaven">
+                    <div class="card-body">
+                        <h5 class="card-title">Temple of Heaven Morning Experience</h5>
+                        <p class="card-text">Visit the Temple of Heaven, admire the Hall of Prayer for Good Harvests, and practice Tai Chi with locals.</p>
+                        <p class="card-price fw-bold">From €85</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="beijing">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Beijing- 798.jpg" class="card-img-top" alt="798 Art District">
+                    <div class="card-body">
+                        <h5 class="card-title">798 Art District Contemporary Tour</h5>
+                        <p class="card-text">Explore the 798 Art Zone, transformed from an old factory, and admire China's top contemporary art galleries and avant-garde sculptures.</p>
+                        <p class="card-price fw-bold">From €90</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="beijing">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Beijing-Summer Palace.jpeg" class="card-img-top" alt="Summer Palace">
+                    <div class="card-body">
+                        <h5 class="card-title">Summer Palace & Kunming Lake Boat</h5>
+                        <p class="card-text">Take a traditional dragon boat ride on Kunming Lake, stroll along the long corridor and enjoy a relaxing afternoon in the royal garden.</p>
+                        <p class="card-price fw-bold">From €95</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="beijing">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Beijing- Hutong.jpg" class="card-img-top" alt="Hutong">
+                    <div class="card-body">
+                        <h5 class="card-title">Hutong Rickshaw Tour</h5>
+                        <p class="card-text">Take a traditional rickshaw through the ancient hutongs, visit local families and experience the authentic life in Beijing.</p>
+                        <p class="card-price fw-bold">From €85</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--  DATONG (6)  -->
+            <div class="col-lg-4 col-md-6 package-card" data-category="datong">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Datong- Yungang Grottoes.jpg" class="card-img-top" alt="Yungang Grottoes">
+                    <div class="card-body">
+                        <h5 class="card-title">Yungang Grottoes Artistry</h5>
+                        <p class="card-text">A half-day tour to witness the breathtaking 1,500-year-old Buddhist art carved directly into the stone.</p>
+                        <p class="card-price fw-bold">From €110</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="datong">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Datong- Hengshan Hanging Temple.jpeg" class="card-img-top" alt="Hengshan Hanging Temple">
+                    <div class="card-body">
+                        <h5 class="card-title">Hengshan Hanging Temple Marvel</h5>
+                        <p class="card-text">Visit the architectural wonder built into a sheer cliff face, a unique temple combining three religions.</p>
+                        <p class="card-price fw-bold">From €120</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="datong">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Datong Ancient City Wall.jpg" class="card-img-top" alt="Datong City Wall">
+                    <div class="card-body">
+                        <h5 class="card-title">Datong Ancient City Wall Cycling</h5>
+                        <p class="card-text">Enjoy panoramic views of the ancient capital by bike or electric cart on the fully restored city wall.</p>
+                        <p class="card-price fw-bold">From €70</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="datong">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Mount Hengshan.jpg" class="card-img-top" alt="Mount Hengshan">
+                    <div class="card-body">
+                        <h5 class="card-title">Mount Hengshan: The Northern Great Mountain</h5>
+                        <p class="card-text">A scenic hiking tour of Mt. Hengshan, one of the Five Great Taoist Mountains of China, cable car included.</p>
+                        <p class="card-price fw-bold">From €100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="datong">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Huayan Monastery.jpeg" class="card-img-top" alt="Huayan Monastery">
+                    <div class="card-body">
+                        <h5 class="card-title">Huayan Monastery Royal Visit</h5>
+                        <p class="card-text">Explore the grand Liao and Jin dynasty royal monastery, home to the largest main hall of its era in China.</p>
+                        <p class="card-price fw-bold">From €85</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="datong">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Datong Earth Forest.jpg" class="card-img-top" alt="Datong Earth Forest">
+                    <div class="card-body">
+                        <h5 class="card-title">Datong Earth Forest Geological Wonder</h5>
+                        <p class="card-text">In the afternoon, visit this unique geological park and take pictures of the wind-eroded landforms that present a magical color at sunset.</p>
+                        <p class="card-price fw-bold">From €95</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--  YANGQUAN (3)  -->
+            <div class="col-lg-4 col-md-6 package-card" data-category="yangquan">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Niangzi Pass.jpg" class="card-img-top" alt="Niangzi Pass">
+                    <div class="card-body">
+                        <h5 class="card-title">Niangzi Pass (Ninth Pass)</h5>
+                        <p class="card-text">Explore the legendary 'Ninth Pass' of the Great Wall, a strategic fortress once famously guarded by female soldiers.</p>
+                        <p class="card-price fw-bold">From €105</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="yangquan">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Cangshan Mountain.jpeg" class="card-img-top" alt="Cangshan Mountain">
+                    <div class="card-body">
+                        <h5 class="card-title">Cangshan Scenic Adventure</h5>
+                        <p class="card-text">Discover the natural beauty, ancient temples, and folklore of Cangshan Mountain, known as the 'Mountain of the Orphan of Zhao'.</p>
+                        <p class="card-price fw-bold">From €100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="yangquan">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Dayu Ancient Village.jpg" class="card-img-top" alt="Dayu Ancient Village">
+                    <div class="card-body">
+                        <h5 class="card-title">Dayu Ancient Village Discovery</h5>
+                        <p class="card-text">Step back in time in this well-preserved Ming and Qing dynasty village, a living museum of ancient architecture.</p>
+                        <p class="card-price fw-bold">From €90</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--  TANGSHAN (3)  -->
+            <div class="col-lg-4 col-md-6 package-card" data-category="tangshan">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Tangshan Earthquake Memorial Wall.jpeg" class="card-img-top" alt="Earthquake Memorial">
+                    <div class="card-body">
+                        <h5 class="card-title">Tangshan: Resilience & Rebirth Tour</h5>
+                        <p class="card-text">A reflective visit to the Tangshan Earthquake Memorial Wall and Museum, honoring the city's remarkable story of resilience.</p>
+                        <p class="card-price fw-bold">From €80</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="tangshan">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Eastern Qing Tombs.jpeg" class="card-img-top" alt="Eastern Qing Tombs">
+                    <div class="card-body">
+                        <h5 class="card-title">Eastern Qing Tombs Imperial Tour</h5>
+                        <p class="card-text">A full-day exploration of the magnificent and expansive imperial burial grounds of the Qing Dynasty, a UNESCO World Heritage site.</p>
+                        <p class="card-price fw-bold">From €140</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="tangshan">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Caofeidian Wetland.jpeg" class="card-img-top" alt="Caofeidian Wetland">
+                    <div class="card-body">
+                        <h5 class="card-title">Caofeidian Wetland Birding</h5>
+                        <p class="card-text">A day trip to the vital coastal wetlands, a paradise for bird-watchers and nature lovers, especially during migration season.</p>
+                        <p class="card-price fw-bold">From €110</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--  SHIJIAZHUANG (3)  -->
+            <div class="col-lg-4 col-md-6 package-card" data-category="shijiazhuang">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Zhaozhou Bridge.jpg" class="card-img-top" alt="Zhaozhou Bridge">
+                    <div class="card-body">
+                        <h5 class="card-title">Ancient Zhaozhou Bridge Marvel</h5>
+                        <p class="card-text">Visit the oldest standing stone arch bridge in the world, a masterpiece of ancient Chinese engineering.</p>
+                        <p class="card-price fw-bold">From €85</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="shijiazhuang">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Cangyan Mountain.jpeg" class="card-img-top" alt="Cangyan Mountain">
+                    <div class="card-body">
+                        <h5 class="card-title">Cangyan Mountain 'Crouching Tiger' Hike</h5>
+                        <p class="card-text">A scenic hike on Cangyan Mountain, famous for its stunning bridge-temple featured in 'Crouching Tiger, Hidden Dragon'.</p>
+                        <p class="card-price fw-bold">From €115</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 package-card" data-category="shijiazhuang">
+                <div class="card h-100 shadow-sm">
+                    <img src="../images/Longxing Monastery.jpg" class="card-img-top" alt="Longxing Monastery">
+                    <div class="card-body">
+                        <h5 class="card-title">Longxing Monastery's Giant Buddha</h5>
+                        <p class="card-text">A peaceful visit to the ancient Bailin Temple, an important and active center for Zen Buddhism in Northern China.</p>
+                        <p class="card-price fw-bold">From €90</p>
+                    </div>
+                </div>
+            </div>
+
+        </div> </main>
+
+  <!-- FOOTER -->      
+  <footer class="py-3 bg-white text-dark-50 border-top">
+    <div class="container text-center">
+            <p class="mb-0">&copy; 2025 Travel Explorer. All Rights Reserved.</p>
+        </div>
+  </footer>
+
+  <!--External JS-->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  
+  <script src="../js/script.js"></script>
+
+</body>
+</html>
